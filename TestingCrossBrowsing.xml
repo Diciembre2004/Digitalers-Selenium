@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="prueba cross browsing">
+    <classes>
+     <class name="edit.Digitaler2024SeleniumMartJue.Laboratorio3"/>
+     <methods>
+     <exclude name="BuscaPalabraChromeBeta"></exclude>
+     </methods>
+    
+   <!--  <class name="edit.Digitaler2024SeleniumMartJue.Laboratorio4"/>
+         <class name="edit.Digitaler2024SeleniumMartJue.Laboratorio5"/>
+     <class name="edit.Digitaler2024SeleniumMartJue.Laboratorio2"/>-->
+   </classes>
+ </test> 
+</suite> <!-- Suite -->
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="TEST">
+ 
+ <parameter name="navegador" value="FIREFOX"></parameter>
+   <classes>
+    <class name="edit.Digitaler2024SeleniumMartJue.Laboratorio6"/>
+  
+   </classes>
+ </test> 
+ 
+    <test thread-count="5" name="TEST2">
+ 
+ <parameter name="navegador" value="CHROME"></parameter>
+   <classes>
+    <class name="edit.Digitaler2024SeleniumMartJue.Laboratorio6"/>
+  
+   </classes>
+ </test>
+</suite> <!-- Suite -->

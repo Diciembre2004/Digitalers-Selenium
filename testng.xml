@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="edit.DigitalersSelenium.Laboratorio5"/>
+      <class name="edit.DigitalersSelenium.Laboratorio4"/>
+      <class name="edit.DigitalersSelenium.Laboratorio3"/>
+      <class name="edit.DigitalersSelenium.Laboratorio2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- haciendo run as TestNG se pueden ejecutar varios archivos a la vez -->
